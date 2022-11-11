@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa';
 import { FaTimes } from 'react-icons/fa';
 import {Link} from 'react-scroll'
-import SocilaCircles from './SocilaCircles';
 
 const NabvBar = () => {
     const [nav,setNav]=useState(false);
@@ -67,7 +66,6 @@ const NabvBar = () => {
                 </ul>
             )}
 
-            {!nav&& <SocilaCircles/>}
     </div>
 
   

@@ -40,7 +40,7 @@ const SocilaCircles = () => {
 
   return (
 
-    <div className='md:hidden flex fixed flex-col justify-between top-[620px] '>
+    <div className='md:hidden flex flex-col justify-between top-[620px] '>
       <ul className='flex flex-row'>
         {links.map((link)=>(
               <li className={"w-9 h-9 rounded-full ml-4 flex justify-center items-center text-stone-300 " + link.style}>

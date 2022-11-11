@@ -40,8 +40,8 @@ const SocilaCircles = () => {
 
   return (
 
-    <div className='md:hidden flex flex-col justify-between top-[620px] '>
-      <ul className='flex flex-row'>
+   <div className='md:hidden flex flex-col justify-between '>
+      <ul className='flex'>
         {links.map((link)=>(
               <li className={"w-9 h-9 rounded-full ml-4 flex justify-center items-center text-stone-300 " + link.style}>
                 <a  href={link.href} download={link.download} target='_blank' rel='noreferrer'>{link.child}</a>

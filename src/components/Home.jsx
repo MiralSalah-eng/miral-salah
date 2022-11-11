@@ -1,6 +1,7 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import {Link} from 'react-scroll'
+import SocilaCircles from './SocilaCircles'
 
 const Home = () => {
   return (
@@ -20,7 +21,9 @@ const Home = () => {
                 </button>
                 </Link>
             </div>
-
+                 <div className='md:hidden pt-5 -ml-4'>
+        <SocilaCircles/>
+        </div> 
          
        </div>
        
